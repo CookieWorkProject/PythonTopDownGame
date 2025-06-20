@@ -5,10 +5,6 @@ from objects.Enemy import Enemy
 from objects.Coin import Coin
 from util.Controller import Controller
 from util.Controller import Controller
-
-
-
-
 def startGame(gameObjects,replay,player):
     # Initialize Pygame
     pygame.init()
