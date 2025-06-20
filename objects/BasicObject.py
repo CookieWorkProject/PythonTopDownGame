@@ -1,9 +1,13 @@
+import pygame
 class BasicObject:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
+    def __init__(self, rect):
+        self.rect = rect
+        self.active = True
 
     def step(self):
         pass
     def draw(self):
         pass
+    def collision(self,gameObjects):
+        pass
+        
